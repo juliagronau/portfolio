@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-img {
+  background-image: url("https://this.deakin.edu.au/wp-content/uploads/2019/06/coding-on-a-computer.jpg");
+  background-size: cover;
+  background-position-y: center;
+  width: 100%;
+  height: 500px;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+  min-width: 300px;
+  max-width: 35%;
+  height: auto;
+  color: #191919;
+  background-color: #fff;
+  margin: 30px;
+  padding: 10px 20px;
+  opacity: 0.8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-note {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card {
+  width: 18rem;
+}
+
+.btn-primary {
+  margin: 0.5rem;
+  background-color: #00a59b;
+  border-color: #00a59b;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem;
 }
