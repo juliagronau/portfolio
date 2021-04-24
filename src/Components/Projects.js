@@ -106,22 +106,22 @@ const Projects = () => {
           </a>
         </div>
       </div>
-
       <div className="row projectbox">
         <div className="col-sm">
-          <h3>Hackernews Clone</h3>
-          <p>
-            Ein Klon der Nachrichtenseite Hackernews, Nachrichten werden
-            gefetched von der Hackernews API.
-          </p>
+          <h3>Node.js-MongoDB-Übung</h3>
+          <p>CRUD Operations mit zwei Collections in einer MongoDB Database.</p>
           <h4>Tech Stack</h4>
-          <p>React, JavaScript, HTML, CSS, Bootstrap</p>
-          <a href="" target="blank" className="btn btn-primary">
+          <p>Node.js, JavaScript, Express, MongoDB, mongoose</p>
+          <a
+            href="https://node-express-mongoose.herokuapp.com/"
+            target="blank"
+            className="btn btn-primary"
+          >
             Deployed Website
           </a>
 
           <a
-            href="https://github.com/juliagronau/hackernewsclone"
+            href="https://github.com/juliagronau/node-express-mongoose-practice"
             target="blank"
             className="btn btn-primary"
           >
@@ -130,12 +130,13 @@ const Projects = () => {
         </div>
         <div className="col-sm">
           <img
-            src={Hacker_News_Clone_thumbnail}
+            src={mongoose}
             className="img-fluid"
-            alt="hackernews thumbnail"
+            alt="mongoose thumbnail"
           ></img>
         </div>
       </div>
+
       <div className="row projectbox">
         <div className="col-sm">
           <img
@@ -231,36 +232,6 @@ const Projects = () => {
           >
             GitHub Repo
           </a>
-        </div>
-      </div>
-      <div className="row projectbox">
-        <div className="col-sm">
-          <h3>Node.js-MongoDB-Übung</h3>
-          <p>CRUD Operations mit zwei Collections in einer MongoDB Database.</p>
-          <h4>Tech Stack</h4>
-          <p>Node.js, JavaScript, Express, MongoDB, mongoose</p>
-          <a
-            href="https://node-express-mongoose.herokuapp.com/"
-            target="blank"
-            className="btn btn-primary"
-          >
-            Deployed Website
-          </a>
-
-          <a
-            href="https://github.com/juliagronau/node-express-mongoose-practice"
-            target="blank"
-            className="btn btn-primary"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div className="col-sm">
-          <img
-            src={mongoose}
-            className="img-fluid"
-            alt="mongoose thumbnail"
-          ></img>
         </div>
       </div>
     </>
