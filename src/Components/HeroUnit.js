@@ -23,8 +23,8 @@ const HeroUnit = () => {
             hohen Anspruch an mich. Gemeinsam an sinnvollen Lösungen zu arbeiten
             ist für mich ein essentieller Bestandteil des beruflichen Lebens,
             wobei ich mich gern einbringe und von anderen lerne. Die
-            Sinnhaftigkeit und Nachhaltigkeit meiner Arbeit hat für mich einen
-            besonders hohen Stellenwert .
+            Sinnhaftigkeit und Nachhaltigkeit meiner Arbeit haben für mich einen
+            besonders hohen Stellenwert.
           </p>
         </div>
       </div>
