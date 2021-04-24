@@ -2,21 +2,21 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <a className="navbar-brand">
           Julia Gronau | Full Stack Web & App Developer
         </a>
 
         <div>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/#projectanchor">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="/#projectanchor">
                 Projekte
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#contactanchor">
+            <li className="nav-item">
+              <a className="nav-link" href="/#contactanchor">
                 Kontakt
               </a>
             </li>

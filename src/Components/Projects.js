@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <>
       <div className="row projectbox">
-        <div className="col">
+        <div className="col-sm">
           <h3>Final Project - ColIn Color Inspirator</h3>
           <p>
             Work in Progress - Eine App für Kreative, schlägt stimmige
@@ -22,7 +22,7 @@ const Projects = () => {
           <a
             href="https://colin-color-inspirator.netlify.app/page/Home"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Frontend
           </a>
@@ -30,38 +30,42 @@ const Projects = () => {
           <a
             href="https://github.com/juliagronau/ColIn-Frontend-Ionic"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo Frontend
           </a>
           <a
             href="https://colin-color-inspirator.herokuapp.com/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Backend
           </a>
           <a
             href="https://github.com/juliagronau/ColIn-Backend"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo Backend
           </a>
         </div>
-        <img
-          src={colinthumbnail}
-          className="col projectthumbnailright"
-          alt="ColIn thumbnail"
-        ></img>
+        <div className="col-sm">
+          <img
+            src={colinthumbnail}
+            alt="ColIn thumbnail"
+            className="img-fluid"
+          ></img>
+        </div>
       </div>
       <div className="row projectbox">
-        <img
-          src={Sportsblogthumbnail}
-          className="col projectthumbnailleft"
-          alt="sportsblog thumbnail"
-        ></img>
-        <div className="col">
+        <div className="col-sm">
+          <img
+            src={Sportsblogthumbnail}
+            className="img-fluid"
+            alt="sportsblog thumbnail"
+          ></img>
+        </div>
+        <div className="col-sm">
           <h3>Blog Project</h3>
           <p>
             Ein Freizeitblog, erstellt mit zwei Mitschülern. Content wurde
@@ -75,28 +79,28 @@ const Projects = () => {
           <a
             href="https://priceless-archimedes-aadb27.netlify.app/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Frontend
           </a>
           <a
             href="https://blog-project-api-jms.herokuapp.com/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Backend
           </a>
           <a
             href="https://github.com/juliagronau/sports-blog"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo Frontend
           </a>
           <a
             href="https://github.com/saidakyuz/blog-project-api"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo Backend
           </a>
@@ -104,7 +108,7 @@ const Projects = () => {
       </div>
 
       <div className="row projectbox">
-        <div className="col">
+        <div className="col-sm">
           <h3>Hackernews Clone</h3>
           <p>
             Ein Klon der Nachrichtenseite Hackernews, Nachrichten werden
@@ -112,31 +116,35 @@ const Projects = () => {
           </p>
           <h4>Tech Stack</h4>
           <p>React, JavaScript, HTML, CSS, Bootstrap</p>
-          <a href="" target="blank" class="btn btn-primary">
+          <a href="" target="blank" className="btn btn-primary">
             Deployed Website
           </a>
 
           <a
             href="https://github.com/juliagronau/hackernewsclone"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo
           </a>
         </div>
-        <img
-          src={Hacker_News_Clone_thumbnail}
-          className="col projectthumbnailright"
-          alt="hackernews thumbnail"
-        ></img>
+        <div className="col-sm">
+          <img
+            src={Hacker_News_Clone_thumbnail}
+            className="img-fluid"
+            alt="hackernews thumbnail"
+          ></img>
+        </div>
       </div>
       <div className="row projectbox">
-        <img
-          src={locationexplorerthumbnail}
-          className="col projectthumbnailleft"
-          alt="sportsblog thumbnail"
-        ></img>
-        <div className="col">
+        <div className="col-sm">
+          <img
+            src={locationexplorerthumbnail}
+            className="img-fluid"
+            alt="sportsblog thumbnail"
+          ></img>
+        </div>
+        <div className="col-sm">
           <h3>Location Explorer</h3>
           <p>
             Eine Website, die die IP-Adresse der User:innen sowie einige
@@ -148,7 +156,7 @@ const Projects = () => {
           <a
             href="https://jolly-goodall-e936ea.netlify.app/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Website
           </a>
@@ -156,14 +164,14 @@ const Projects = () => {
           <a
             href="https://github.com/juliagronau/ip-project"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo
           </a>
         </div>
       </div>
       <div className="row projectbox">
-        <div className="col">
+        <div className="col-sm">
           <h3>Node.js-SQL-Übung</h3>
           <p>CRUD Operations mit einer SQL-Datenbank.</p>
           <h4>Tech Stack</h4>
@@ -171,7 +179,7 @@ const Projects = () => {
           <a
             href="https://nodejs-sql-uebung.herokuapp.com/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Website
           </a>
@@ -179,24 +187,28 @@ const Projects = () => {
           <a
             href="https://github.com/juliagronau/nodejs-sql"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo
           </a>
         </div>
-        <img
-          src={nodesqlthumbnail}
-          className="col projectthumbnailright"
-          alt="hackernews thumbnail"
-        ></img>
+        <div className="col-sm">
+          <img
+            src={nodesqlthumbnail}
+            className="img-fluid"
+            alt="hackernews thumbnail"
+          ></img>
+        </div>
       </div>
       <div className="row projectbox">
-        <img
-          src={multer}
-          className="col projectthumbnailleft"
-          alt="multer S3 thumbnail"
-        ></img>
         <div className="col">
+          <img
+            src={multer}
+            className="img-fluid"
+            alt="multer S3 thumbnail"
+          ></img>
+        </div>
+        <div className="col-sm">
           <h3>File Upload mit Multer</h3>
           <p>
             Upload einer oder mehrerer Dateien mit Multer, Multer Storage
@@ -207,7 +219,7 @@ const Projects = () => {
           <a
             href="https://multer-s3-fileupload.herokuapp.com/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Website
           </a>
@@ -215,14 +227,14 @@ const Projects = () => {
           <a
             href="https://github.com/juliagronau/multerfileupload"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo
           </a>
         </div>
       </div>
       <div className="row projectbox">
-        <div className="col">
+        <div className="col-sm">
           <h3>Node.js-MongoDB-Übung</h3>
           <p>CRUD Operations mit zwei Collections in einer MongoDB Database.</p>
           <h4>Tech Stack</h4>
@@ -230,7 +242,7 @@ const Projects = () => {
           <a
             href="https://node-express-mongoose.herokuapp.com/"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Deployed Website
           </a>
@@ -238,16 +250,18 @@ const Projects = () => {
           <a
             href="https://github.com/juliagronau/node-express-mongoose-practice"
             target="blank"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             GitHub Repo
           </a>
         </div>
-        <img
-          src={mongoose}
-          className="col projectthumbnailright"
-          alt="mongoose thumbnail"
-        ></img>
+        <div className="col-sm">
+          <img
+            src={mongoose}
+            className="img-fluid"
+            alt="mongoose thumbnail"
+          ></img>
+        </div>
       </div>
     </>
   );
