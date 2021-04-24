@@ -38,15 +38,17 @@ body {
 
 .projectthumbnailleft {
   width: 50%;
+  height: auto;
   margin-right: 1.5rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .projectthumbnailright {
   justify-content: flex-end;
   width: 50%;
+  height: auto;
   margin-left: 1.5rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 h3 {

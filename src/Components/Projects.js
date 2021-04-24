@@ -3,10 +3,58 @@ import Sportsblogthumbnail from "../assets/Sportsblogthumbnail.png";
 import Hacker_News_Clone_thumbnail from "../assets/Hacker_News_Clone_thumbnail.png";
 import nodesqlthumbnail from "../assets/nodesqlthumbnail.png";
 import locationexplorerthumbnail from "../assets/locationexplorerthumbnail.png";
+import mongoose from "../assets/mongoose.jpg";
+import multer from "../assets/multer.jpg";
+import colinthumbnail from "../assets/colinthumbnail.png";
 
 const Projects = () => {
   return (
     <>
+      <div className="row projectbox">
+        <div className="col">
+          <h3>Final Project - ColIn Color Inspirator</h3>
+          <p>
+            Work in Progress - Eine App für Kreative, schlägt stimmige
+            Farbkombinationen vor. Komplett kompatibel mit Light und Dark Mode.
+          </p>
+          <h4>Tech Stack</h4>
+          <p>React, JavaScript, HTML, CSS, Ionic, Node, Express, MongoDB</p>
+          <a
+            href="https://colin-color-inspirator.netlify.app/page/Home"
+            target="blank"
+            class="btn btn-primary"
+          >
+            Deployed Frontend
+          </a>
+
+          <a
+            href="https://github.com/juliagronau/ColIn-Frontend-Ionic"
+            target="blank"
+            class="btn btn-primary"
+          >
+            GitHub Repo Frontend
+          </a>
+          <a
+            href="https://colin-color-inspirator.herokuapp.com/"
+            target="blank"
+            class="btn btn-primary"
+          >
+            Deployed Backend
+          </a>
+          <a
+            href="https://github.com/juliagronau/ColIn-Backend"
+            target="blank"
+            class="btn btn-primary"
+          >
+            GitHub Repo Backend
+          </a>
+        </div>
+        <img
+          src={colinthumbnail}
+          className="col projectthumbnailright"
+          alt="ColIn thumbnail"
+        ></img>
+      </div>
       <div className="row projectbox">
         <img
           src={Sportsblogthumbnail}
@@ -22,7 +70,7 @@ const Projects = () => {
           <h4>Tech Stack</h4>
           <p>
             React, JavaScript, HTML, CSS, Bootstrap, Contentful CMS ersetzt
-            durch ElephantSQL, Node.js, pg, Express
+            durch ElephantSQL, Node.js, Express
           </p>
           <a
             href="https://priceless-archimedes-aadb27.netlify.app/"
@@ -63,7 +111,7 @@ const Projects = () => {
             gefetched von der Hackernews API.
           </p>
           <h4>Tech Stack</h4>
-          <p>React, JavaScript, HTML, CSS, Bootstrap, axios</p>
+          <p>React, JavaScript, HTML, CSS, Bootstrap</p>
           <a href="" target="blank" class="btn btn-primary">
             Deployed Website
           </a>
@@ -96,7 +144,7 @@ const Projects = () => {
             von geo.ipify.org, restcountries.eu und countryflags.io
           </p>
           <h4>Tech Stack</h4>
-          <p>React, JavaScript, HTML, CSS, Semantic UI, axios, Leaflet</p>
+          <p>React, JavaScript, HTML, CSS, Semantic UI, Leaflet</p>
           <a
             href="https://jolly-goodall-e936ea.netlify.app/"
             target="blank"
@@ -117,12 +165,9 @@ const Projects = () => {
       <div className="row projectbox">
         <div className="col">
           <h3>Node.js-SQL-Übung</h3>
-          <p>
-            Fetchen von User- und Orderdaten aus einer selbst angelegten
-            SQL-Datenbank (ElephantSQL).
-          </p>
+          <p>CRUD Operations mit einer SQL-Datenbank.</p>
           <h4>Tech Stack</h4>
-          <p>Node.js, JavaScript, Express, pg</p>
+          <p>Node.js, JavaScript, Express, ElephantSQL</p>
           <a
             href="https://nodejs-sql-uebung.herokuapp.com/"
             target="blank"
@@ -143,6 +188,65 @@ const Projects = () => {
           src={nodesqlthumbnail}
           className="col projectthumbnailright"
           alt="hackernews thumbnail"
+        ></img>
+      </div>
+      <div className="row projectbox">
+        <img
+          src={multer}
+          className="col projectthumbnailleft"
+          alt="multer S3 thumbnail"
+        ></img>
+        <div className="col">
+          <h3>File Upload mit Multer</h3>
+          <p>
+            Upload einer oder mehrerer Dateien mit Multer, Multer Storage
+            Streaming mit AWS S3.
+          </p>
+          <h4>Tech Stack</h4>
+          <p>Node.js, Express, multer, AWS S3</p>
+          <a
+            href="https://multer-s3-fileupload.herokuapp.com/"
+            target="blank"
+            class="btn btn-primary"
+          >
+            Deployed Website
+          </a>
+
+          <a
+            href="https://github.com/juliagronau/multerfileupload"
+            target="blank"
+            class="btn btn-primary"
+          >
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+      <div className="row projectbox">
+        <div className="col">
+          <h3>Node.js-MongoDB-Übung</h3>
+          <p>CRUD Operations mit zwei Collections in einer MongoDB Database.</p>
+          <h4>Tech Stack</h4>
+          <p>Node.js, JavaScript, Express, MongoDB, mongoose</p>
+          <a
+            href="https://node-express-mongoose.herokuapp.com/"
+            target="blank"
+            class="btn btn-primary"
+          >
+            Deployed Website
+          </a>
+
+          <a
+            href="https://github.com/juliagronau/node-express-mongoose-practice"
+            target="blank"
+            class="btn btn-primary"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <img
+          src={mongoose}
+          className="col projectthumbnailright"
+          alt="mongoose thumbnail"
         ></img>
       </div>
     </>
