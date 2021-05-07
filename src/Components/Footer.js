@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="contactanchor">
+    <footer id="contact">
       <div className="row">
         <h5>Ich freue mich, von Dir zu hören</h5>
       </div>

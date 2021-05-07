@@ -50,10 +50,20 @@ h3 {
   border-color: #077b8a;
 }
 
+.btn-primary:active {
+  background-color: #a2d5c6;
+  border-color: #077b8a;
+}
+
+.btn-primary:focus {
+  background-color: #a2d5c6;
+  border-color: #077b8a;
+}
+
 footer {
   text-align: center;
   margin-top: 5rem;
-  padding: 4rem;
+  padding: 6rem;
   background-color: #a2d5c6;
 }
 
