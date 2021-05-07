@@ -15,7 +15,11 @@ const Blog = () => {
       </p>
       <div className="row" style={{ justifyContent: "center" }}>
         <div className="card" style={{ width: "17rem", margin: ".5rem" }}>
-          <img className="card-img-top" src={blogtrackingthumbnail}></img>
+          <img
+            className="card-img-top"
+            src={blogtrackingthumbnail}
+            alt="Blogpost tracking thumbnail"
+          ></img>
           <div className="card-body">
             <h5 className="card-title">Reportingtools</h5>
             <p className="card-text">
@@ -31,7 +35,11 @@ const Blog = () => {
           </div>
         </div>
         <div className="card" style={{ width: "17rem", margin: ".5rem" }}>
-          <img className="card-img-top" src={blogpostcmpthumbnail1}></img>
+          <img
+            className="card-img-top"
+            src={blogpostcmpthumbnail1}
+            alt="Blogpost cmp part1 thumbnail"
+          ></img>
           <div className="card-body">
             <h5 className="card-title">Consent Management für Hotelwebsites</h5>
             <p className="card-text">
@@ -47,7 +55,11 @@ const Blog = () => {
           </div>
         </div>
         <div className="card" style={{ width: "17rem", margin: ".5rem" }}>
-          <img className="card-img-top" src={blogcmpthumbnail2}></img>
+          <img
+            className="card-img-top"
+            src={blogcmpthumbnail2}
+            alt="Blogpost cmp part2 thumbnail"
+          ></img>
           <div className="card-body">
             <h5 className="card-title">Consent Management für Hotelwebsites</h5>
             <p className="card-text">
