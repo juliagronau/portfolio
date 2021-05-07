@@ -13,7 +13,7 @@ const Blog = () => {
         erstellt. Ich liebe es auch Blog Posts zu verfassen, wie zum Beispiel
         diese:
       </p>
-      <div className="row">
+      <div className="row" style={{ justifyContent: "center" }}>
         <div className="card" style={{ width: "17rem", margin: ".5rem" }}>
           <img className="card-img-top" src={blogtrackingthumbnail}></img>
           <div className="card-body">
