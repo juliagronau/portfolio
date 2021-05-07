@@ -15,7 +15,7 @@ const HeroUnit = () => {
         <div className="col-10 introheading">
           <h1>Julia Gronau - Full-Stack Web & App Developer</h1>
           <p>
-            Mit Ehrgeiz und Neugier bin ich in einem 4-monatigen Bootcamp zur
+            Mit Ehrgeiz und Neugier bin ich in einem 4-monatigen Training zur
             Webentwicklerin geworden. Durch meine Berufserfahrung in den
             Bereichen Webanalyse, E-Commerce und Online Marketing besitze ich
             breites Wissen, das im interdisziplinären Arbeiten von großem

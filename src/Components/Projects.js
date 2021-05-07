@@ -14,8 +14,9 @@ const Projects = () => {
         <div className="col-sm">
           <h3>Final Project - ColIn Color Inspirator</h3>
           <p>
-            Work in Progress - Eine App für Kreative, schlägt stimmige
-            Farbkombinationen vor. Komplett kompatibel mit Light und Dark Mode.
+            Eine App für Kreative, schlägt stimmige Farbkombinationen vor.
+            Komplett kompatibel mit Light und Dark Mode. Released als PWA.
+            Published im Google Play Store (derzeit in Prüfung).
           </p>
           <h4>Tech Stack</h4>
           <p>React, JavaScript, HTML, CSS, Ionic, Node, Express, MongoDB</p>
