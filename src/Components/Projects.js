@@ -1,6 +1,5 @@
 import React from "react";
 import Sportsblogthumbnail from "../assets/Sportsblogthumbnail.png";
-import Hacker_News_Clone_thumbnail from "../assets/Hacker_News_Clone_thumbnail.png";
 import nodesqlthumbnail from "../assets/nodesqlthumbnail.png";
 import locationexplorerthumbnail from "../assets/locationexplorerthumbnail.png";
 import mongoose from "../assets/mongoose.jpg";
@@ -56,6 +55,31 @@ const Projects = () => {
             alt="ColIn thumbnail"
             className="img-fluid"
           ></img>
+        </div>
+        <div
+          className="row"
+          style={{
+            marginTop: "1rem",
+            position: "relative",
+            paddingBottom: "50%",
+            height: "0",
+          }}
+        >
+          <iframe
+            title="ColIn Demo"
+            src="https://www.loom.com/embed/b3e72291c9ba429bb4f87c36ae8901a4"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen
+            style={{
+              position: "absolute",
+              top: "0 rem",
+              left: "0 rem",
+              width: "100%",
+              height: "100%",
+            }}
+          ></iframe>
         </div>
       </div>
       <div className="row projectbox">
