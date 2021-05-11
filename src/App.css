@@ -60,6 +60,11 @@ h3 {
   border-color: #077b8a;
 }
 
+.play-store {
+  max-width: 25%;
+  height: auto;
+}
+
 footer {
   text-align: center;
   margin-top: 5rem;

@@ -15,8 +15,8 @@ const Projects = () => {
           <p>
             Eine App für Kreative, schlägt stimmige Farbkombinationen vor.
             Komplett kompatibel mit Light und Dark Mode. Released als PWA.
-            Published im Google Play Store (derzeit in Prüfung).
           </p>
+
           <h4>Tech Stack</h4>
           <p>React, JavaScript, HTML, CSS, Ionic, Node, Express, MongoDB</p>
           <a
@@ -26,7 +26,6 @@ const Projects = () => {
           >
             Deployed Frontend
           </a>
-
           <a
             href="https://github.com/juliagronau/ColIn-Frontend-Ionic"
             target="blank"
@@ -48,8 +47,19 @@ const Projects = () => {
           >
             GitHub Repo Backend
           </a>
+          <br></br>
+          <a
+            href="https://play.google.com/store/apps/details?id=app.netlify.colin_color_inspirator.twa"
+            target="blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png"
+              alt="Google Play Store Icon"
+              className="play-store"
+            />
+          </a>
         </div>
-        <div className="col-sm">
+        <div className="col-sm" style={{ alignSelf: "center" }}>
           <img
             src={colinthumbnail}
             alt="ColIn thumbnail"
